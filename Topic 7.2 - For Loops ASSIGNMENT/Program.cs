@@ -4,7 +4,35 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Assignment 1 - Counting down
+            for (int i = 10; i >= 0; i--)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("Blast off!");
+            
+            
+            // Assignment 2 - X and Y
+            
+            Console.WriteLine("X\tY");
+            Console.WriteLine("------------");
+            for (int x = -10; x <= 10; x+=2)
+            {
+               
+                    Console.WriteLine(x + "\t" + (x * x));
+                
+            }
+            
+
+            // Assignment 3 - For Loop fun
+            Console.WriteLine("Whats your name?");
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+            if (name == 
+            
+
+
+
         }
     }
 }
