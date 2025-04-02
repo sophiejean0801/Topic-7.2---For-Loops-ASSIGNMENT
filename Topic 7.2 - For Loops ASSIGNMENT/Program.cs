@@ -22,14 +22,26 @@
                     Console.WriteLine(x + "\t" + (x * x));
                 
             }
-            
+
 
             // Assignment 3 - For Loop fun
+            int nameLoop = 5;
             Console.WriteLine("Whats your name?");
             Console.Write("Name: ");
             string name = Console.ReadLine();
-            if (name == 
+            if (name.ToLower() != "aldworth")
+            {
+                nameLoop = 10;
+            }
+            for (int i = 0; i < nameLoop; i++)
+            {
+                Console.WriteLine(name);
+            }
             
+                
+           
+
+
 
 
 
